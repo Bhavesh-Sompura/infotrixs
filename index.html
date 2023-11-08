@@ -1,0 +1,130 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <title>Weather App !</title>
+    <link rel="shortcut icon" href="assets/cloudy.png" type="image/x-icon">
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto&display=swap" rel="stylesheet">
+</head>
+<body>
+    <!---Nav Bar--->
+    
+    <div class="topnav" id="myTopnav">
+        <a href="index.html" class="active">Home</a>
+        <a href="#news">News</a>       
+        <a href="about.html">About</a>
+        <a href="javascript:void(0);" class="icon" onclick="myFunction()">
+          <i class="fa fa-bars"></i>
+        </a>
+    </div>
+
+    <!---Main--->
+    <div class="main">
+        <div class="header">
+            <h2>Top Cities</h2>
+        </div>
+
+    <!----Weather Cards---->
+        <div class="row">
+            <div class="column">
+              <div class="card">
+                      <img src="assets/clouds.png" alt="Avatar" >
+                      <div class="container">
+                        <h4><b>Mumbai 29&deg;C</b></h4> 
+                        <p>Mostly Sunny - Real Feel 31&deg;C</p> 
+                      </div>
+                      <div class="container" style="overflow-x: auto;">
+                        <table style="width: 100%; margin-bottom: 10px;" >
+                            <tr>
+                              <td><h4>Air Quality</h4></td>    
+                              <td>Very Unhealthy</td>
+                            </tr>
+                            <tr>
+                              <td><h4>Wind</h4></td>
+                              <td>NNE 10 km/h</td>
+                            </tr>
+                            <tr>
+                                <td><h4>Humidity</h4></td>
+                                <td>56%</td>
+                              </tr>
+                            <tr>
+                                <td> <a href="mumbai.html" class="card-link">More</a>  </td>                                
+                            </tr>
+                        </table>                       
+                      </div>
+                                         
+                    </div>
+            </div> 
+            <div class="column">
+                <div class="card">
+                        <img src="assets/cloudy.png" alt="Avatar" >
+                        <div class="container">
+                          <h4><b>Pune 31&deg;C</b></h4> 
+                          <p>Mostly Sunny - Real Feel 30&deg;C</p> 
+                        </div>
+                        <div class="container" style="overflow-x: auto;">
+                          <table style="width: 100%; margin-bottom: 10px;" >
+                              <tr>
+                                <td><h4>Air Quality</h4></td>    
+                                <td>Very Unhealthy</td>
+                              </tr>
+                              <tr>
+                                <td><h4>Wind</h4></td>
+                                <td>E 9 km/h</td>
+                              </tr>
+                              <tr>
+                                  <td><h4>Humidity</h4></td>
+                                  <td>76%</td>
+                                </tr>
+                              <tr>
+                                  <td> <a href="pune.html" class="card-link">More</a>  </td>                                
+                              </tr>
+                          </table>                       
+                        </div>
+                                           
+                      </div>
+              </div>  
+              <div class="column">
+                <div class="card">
+                        <img src="assets/sun.png" alt="Avatar" >
+                        <div class="container">
+                          <h4><b>Bengaluru 21&deg;C</b></h4> 
+                          <p>Mostly Sunny - Real Feel 22&deg;C</p> 
+                        </div>
+                        <div class="container" style="overflow-x: auto;">
+                          <table style="width: 100%; margin-bottom: 10px;" >
+                              <tr>
+                                <td><h4>Air Quality</h4></td>    
+                                <td>Fair</td>
+                              </tr>
+                              <tr>
+                                <td><h4>Wind</h4></td>
+                                <td>E 12 km/h</td>
+                              </tr>
+                              <tr>
+                                  <td><h4>Humidity</h4></td>
+                                  <td>97%</td>
+                                </tr>
+                              <tr>
+                                  <td> <a href="bengaluru.html" class="card-link">More</a>  </td>                                
+                              </tr>
+                          </table>                       
+                        </div>
+                                           
+                      </div>
+              </div>      
+    
+    <!---Weather Data---->          
+    </div>   
+    
+   <!----Script----> 
+
+    <script src="script.js"></script>
+
+</body>
+</html>
